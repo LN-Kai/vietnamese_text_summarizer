@@ -1,0 +1,14 @@
+vietnamese_text_summarizer/
+├── main.py                 # File chính để chạy ứng dụng
+├── summarizer/
+│   ├── __init__.py         # File khởi tạo package
+│   ├── text_processor.py   # Xử lý văn bản
+│   └── summarizer.py       # Lớp tóm tắt
+├── gui/
+│   ├── __init__.py         # File khởi tạo package
+│   └── app.py              # Giao diện người dùng
+├── utils/
+│   ├── __init__.py         # File khởi tạo package
+│   └── file_handler.py     # Xử lý file
+└── resources/
+    └── vietnamese-stopwords.txt  # File stopwords
